@@ -19,6 +19,7 @@ st.markdown("""
 
 .stApp {
     background: #f8fafc;
+    color: #1e293b;
 }
 
 #MainMenu, footer, header { visibility: hidden; }
@@ -92,6 +93,7 @@ st.markdown("""
     padding: 2rem;
     margin: 1rem 0;
     line-height: 1.8;
+    color: #1e293b;
 }
 
 .score-grid {
