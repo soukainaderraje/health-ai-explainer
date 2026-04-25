@@ -11,7 +11,7 @@ def run_multi_agent(health_data, knowledge_base, language, api_key):
         messages=[
             {
                 "role": "system",
-                "content": "You are a medical data extraction specialist. Your only job is to extract and list medical test values clearly and precisely. Nothing else."
+                "content": f"You are a medical data extraction specialist. Your only job is to extract and list medical test values clearly and precisely. Respond in {language}."
             },
             {
                 "role": "user",
@@ -29,7 +29,7 @@ def run_multi_agent(health_data, knowledge_base, language, api_key):
         messages=[
             {
                 "role": "system",
-                "content": "You are a medical safety expert. Your only job is to identify dangerous values and assess risk levels. Be precise and direct."
+                "content": f"You are a medical safety expert. Your only job is to identify dangerous values and assess risk levels. Be precise and direct. Respond in {language}."
             },
             {
                 "role": "user",
@@ -65,7 +65,7 @@ Original data: {health_data}"""
         messages=[
             {
                 "role": "system",
-                "content": "You are a senior medical reviewer. Check if the report is accurate, safe, clear, and complete. Give a brief quality score out of 10 and list any missing information."
+                "content": f"You are a senior medical reviewer. Check if the report is accurate, safe, clear, and complete. Give a brief quality score out of 10 and list any missing information. Respond in {language}."
             },
             {
                 "role": "user",

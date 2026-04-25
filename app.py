@@ -413,36 +413,32 @@ if st.button("🔍 Explain My Results", use_container_width=True):
                 st.write(result["report"])
 
                 # Scores
-                st.markdown(f"""
-                <div class="score-grid">
-                    <div class="score-item">
-                        <div class="score-number">{evaluation['safety_score']}</div>
-                        <div class="score-label">🛡️ Safety Score /10</div>
-                    </div>
-                    <div class="score-item">
-                        <div class="score-number">4</div>
-                        <div class="score-label">🤖 AI Agents Used</div>
-                    </div>
-                    <div class="score-item">
-                        <div class="score-number">{language[:2]}</div>
-                        <div class="score-label">🌍 Language</div>
-                    </div>
-                </div>
-                """, unsafe_allow_html=True)
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("🛡️ Safety Score", f"{evaluation['safety_score']}/10")
+                with col2:
+                    st.metric("🤖 Agents Used", "4")
+                with col3:
+                    st.metric("🌍 Language", language)
 
                 # Hidden details
                 with st.expander("🔬 View AI Analysis Details"):
-                    st.markdown('<div class="tag">Agent 1 — Extraction</div>', unsafe_allow_html=True)
-                    st.write(result["extracted"])
-                    st.markdown('<div class="tag">Agent 2 — Safety</div>', unsafe_allow_html=True)
-                    st.write(result["safety"])
-                    st.markdown('<div class="tag">Agent 4 — Quality Review</div>', unsafe_allow_html=True)
-                    st.write(result["review"])
+                    st.markdown("#### 🔬 Agent 1 — Extracted Values")
+                    st.markdown(result["extracted"])
+                    st.divider()
+                    st.markdown("#### 🚨 Agent 2 — Safety Assessment")
+                    st.markdown(result["safety"])
+                    st.divider()
+                    st.markdown("#### ✅ Agent 4 — Quality Review")
+                    st.markdown(result["review"])
 
                 with st.expander("📊 View Evaluation Scores"):
-                    st.write(evaluation["llm_scores"])
+                    st.markdown("#### 🤖 AI Judge Scores")
+                    st.markdown(evaluation["llm_scores"])
+                    st.divider()
+                    st.markdown("#### 🛡️ Safety Feedback")
                     for item in evaluation["safety_feedback"]:
-                        st.write(item)
+                        st.markdown(item)
 
                 st.session_state.chat_history = [
                     {"role": "user", "content": f"Here are my medical results:\n{health_data}"},
