@@ -381,10 +381,9 @@ if st.button("🔍 Explain My Results", use_container_width=True):
                     ]}]
                 )
                 final_text = response.choices[0].message.content
-                st.markdown('<div class="report-box">', unsafe_allow_html=True)
+                st.success("✅ Analysis Complete!")
                 st.markdown("### 📋 Your Health Report")
                 st.write(final_text)
-                st.markdown('</div>', unsafe_allow_html=True)
                 st.session_state.chat_history = [
                     {"role": "user", "content": "Here are my medical results (image)"},
                     {"role": "assistant", "content": final_text}
@@ -407,10 +406,9 @@ if st.button("🔍 Explain My Results", use_container_width=True):
                 status.empty()
 
                 # Main report — most prominent
-                st.markdown('<div class="report-box">', unsafe_allow_html=True)
+                st.success("✅ Analysis Complete!")
                 st.markdown("### 📋 Your Health Report")
                 st.write(result["report"])
-                st.markdown('</div>', unsafe_allow_html=True)
 
                 # Scores
                 st.markdown(f"""
