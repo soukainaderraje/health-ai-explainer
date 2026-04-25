@@ -366,7 +366,13 @@ if st.button("🔍 Explain My Results", use_container_width=True):
             dangerous = check_dangerous_values(health_data)
             if dangerous:
                 st.markdown('<div class="critical-alert">', unsafe_allow_html=True)
-                st.markdown("### 🚨 Critical Values Detected — Seek Medical Attention")
+                critical_title = {
+                    "English": "🚨 Critical Values Detected — Seek Medical Attention",
+                    "French": "🚨 Valeurs Critiques Détectées — Consultez un Médecin",
+                    "Arabic": "🚨 قيم حرجة — اطلب العناية الطبية فوراً"
+                }
+                st.markdown(f"### {critical_title.get(language, critical_title['English'])}")
+                
                 for w in dangerous:
                     st.error(w)
                 st.markdown('</div>', unsafe_allow_html=True)
@@ -432,11 +438,18 @@ if st.button("🔍 Explain My Results", use_container_width=True):
                     st.markdown("#### ✅ Agent 4 — Quality Review")
                     st.markdown(result["review"])
 
-                with st.expander("📊 View Evaluation Scores"):
-                    st.markdown("#### 🤖 AI Judge Scores")
+                eval_titles = {
+                    "English": "📊 View Evaluation Scores",
+                    "French": "📊 Voir les Scores d'Évaluation",
+                    "Arabic": "📊 عرض نتائج التقييم"
+                }
+                with st.expander(eval_titles.get(language, eval_titles["English"])):
+                    judge_label = {"English": "🤖 AI Judge Scores", "French": "🤖 Scores du Juge IA", "Arabic": "🤖 تقييم الذكاء الاصطناعي"}
+                    safety_label = {"English": "🛡️ Safety Feedback", "French": "🛡️ Retour sur la Sécurité", "Arabic": "🛡️ ملاحظات السلامة"}
+                    st.markdown(f"#### {judge_label.get(language, judge_label['English'])}")
                     st.markdown(evaluation["llm_scores"])
                     st.divider()
-                    st.markdown("#### 🛡️ Safety Feedback")
+                    st.markdown(f"#### {safety_label.get(language, safety_label['English'])}")
                     for item in evaluation["safety_feedback"]:
                         st.markdown(item)
 
