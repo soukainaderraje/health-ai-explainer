@@ -1,0 +1,178 @@
+Hemoglobin:
+Normal range: 13.5-17.5 g/dL for men, 12.0-15.5 g/dL for women
+Low hemoglobin (below 7) indicates severe anemia, requires immediate medical attention
+High hemoglobin (above 20) may indicate polycythemia, requires medical evaluation
+Common causes of low hemoglobin: iron deficiency, vitamin B12 deficiency, blood loss
+
+Glucose:
+Normal range: 70-100 mg/dL fasting, below 140 mg/dL after meals
+Low glucose (below 50) indicates hypoglycemia, can cause unconsciousness, emergency
+High glucose (above 200) indicates possible diabetes or hyperglycemia, requires medical attention
+Pre-diabetes range: 100-125 mg/dL fasting
+
+WBC (White Blood Cells):
+Normal range: 4,500-11,000 /µL
+Low WBC (below 2000) indicates possible immune deficiency or bone marrow problem
+High WBC (above 30,000) may indicate infection, inflammation, or leukemia
+Mild elevation 11,000-30,000 often indicates infection or stress
+
+Cholesterol:
+Normal total cholesterol: below 200 mg/dL
+Borderline high: 200-239 mg/dL
+High: above 240 mg/dL
+High cholesterol increases risk of heart disease and stroke
+
+Platelets:
+Normal range: 150,000-400,000 /µL
+Low platelets (below 50,000) indicates thrombocytopenia, risk of dangerous bleeding
+High platelets (above 1,000,000) indicates thrombocytosis, risk of clotting
+Mild low platelets 50,000-150,000 requires monitoring
+
+Blood Pressure:
+Normal: below 120/80 mmHg
+Elevated: 120-129 systolic
+High Stage 1: 130-139 systolic
+High Stage 2: 140 or higher systolic
+Hypertensive crisis: above 180 systolic, requires immediate medical attention
+
+Creatinine:
+Normal range: 0.7-1.3 mg/dL for men, 0.6-1.1 mg/dL for women
+High creatinine indicates possible kidney dysfunction
+Very high creatinine (above 10) may indicate kidney failure
+
+Vitamin D:
+Normal range: 20-50 ng/mL
+Deficient: below 12 ng/mL
+Insufficient: 12-20 ng/mL
+High dose supplementation needed below 20 ng/mL
+
+Iron:
+Normal range: 60-170 µg/dL for men, 50-170 µg/dL for women
+Low iron causes fatigue, weakness, and anemia
+High iron can damage organs over time
+
+ALT (Alanine Aminotransferase):
+Normal range: 7-56 U/L for men, 7-45 U/L for women
+High ALT indicates liver damage or inflammation
+Very high ALT (above 200) may indicate hepatitis or severe liver damage
+Common causes: fatty liver, hepatitis, alcohol, medications
+
+AST (Aspartate Aminotransferase):
+Normal range: 10-40 U/L
+High AST indicates liver or heart muscle damage
+Very high AST (above 200) may indicate severe liver damage or heart attack
+Often checked alongside ALT for liver health assessment
+
+Bilirubin:
+Normal total bilirubin: 0.1-1.2 mg/dL
+High bilirubin causes jaundice (yellowing of skin and eyes)
+Very high bilirubin (above 3) requires immediate medical attention
+Causes: liver disease, bile duct obstruction, hemolysis
+
+Creatinine:
+Normal range: 0.7-1.3 mg/dL for men, 0.6-1.1 mg/dL for women
+High creatinine indicates kidney dysfunction
+Very high creatinine (above 10) may indicate kidney failure
+Kidneys filter creatinine so high levels mean kidneys are not working well
+
+Urea (BUN - Blood Urea Nitrogen):
+Normal range: 7-20 mg/dL
+High urea indicates kidney dysfunction or dehydration
+Very high urea (above 50) requires medical attention
+Low urea may indicate malnutrition or liver disease
+
+TSH (Thyroid Stimulating Hormone):
+Normal range: 0.4-4.0 mIU/L
+High TSH indicates hypothyroidism (underactive thyroid)
+Low TSH indicates hyperthyroidism (overactive thyroid)
+Thyroid controls metabolism, energy, and body temperature
+
+T3 (Triiodothyronine):
+Normal range: 80-200 ng/dL
+Low T3 indicates hypothyroidism
+High T3 indicates hyperthyroidism
+Works with T4 to regulate body metabolism
+
+T4 (Thyroxine):
+Normal range: 5.0-12.0 µg/dL
+Low T4 indicates hypothyroidism
+High T4 indicates hyperthyroidism
+Main hormone produced by thyroid gland
+
+Vitamin B12:
+Normal range: 200-900 pg/mL
+Low B12 (below 200) causes nerve damage and anemia
+Very low B12 (below 100) requires immediate treatment
+Common in vegetarians and elderly people
+
+Iron (Serum Iron):
+Normal range: 60-170 µg/dL for men, 50-170 µg/dL for women
+Low iron causes iron deficiency anemia
+High iron may indicate hemochromatosis
+Iron is essential for hemoglobin production
+
+Ferritin:
+Normal range: 20-500 ng/mL for men, 20-200 ng/mL for women
+Low ferritin (below 12) indicates iron deficiency
+High ferritin may indicate inflammation or liver disease
+Ferritin stores iron in the body
+
+CRP (C-Reactive Protein):
+Normal range: below 1.0 mg/L (low risk)
+1.0-3.0 mg/L indicates moderate inflammation risk
+Above 3.0 mg/L indicates high inflammation or infection
+Very high CRP (above 10) indicates acute infection or inflammation
+
+ESR (Erythrocyte Sedimentation Rate):
+Normal range: 0-22 mm/hr for men, 0-29 mm/hr for women
+High ESR indicates inflammation, infection, or autoimmune disease
+Very high ESR (above 100) requires further investigation
+Non-specific marker used alongside other tests
+
+HbA1c (Glycated Hemoglobin):
+Normal range: below 5.7%
+Pre-diabetes: 5.7-6.4%
+Diabetes: 6.5% and above
+Measures average blood sugar over past 3 months
+
+Uric Acid:
+Normal range: 3.5-7.2 mg/dL for men, 2.6-6.0 mg/dL for women
+High uric acid causes gout and kidney stones
+Very high uric acid (above 10) requires medical attention
+Produced by breakdown of purines in food
+
+Sodium:
+Normal range: 135-145 mEq/L
+Low sodium (below 135) indicates hyponatremia — causes confusion and fatigue
+High sodium (above 145) indicates hypernatremia — causes thirst and confusion
+Critical for fluid balance and nerve function
+
+Potassium:
+Normal range: 3.5-5.0 mEq/L
+Low potassium (below 3.0) causes muscle weakness and heart problems
+High potassium (above 6.0) is dangerous for heart rhythm
+Critical for heart and muscle function
+
+Calcium:
+Normal range: 8.5-10.5 mg/dL
+Low calcium causes muscle cramps and bone weakness
+High calcium (above 12) may indicate parathyroid problems or cancer
+Essential for bones, muscles, and nerve function
+
+Albumin:
+Normal range: 3.5-5.0 g/dL
+Low albumin indicates malnutrition or liver disease
+Main protein in blood that carries nutrients
+Low levels indicate poor overall health status
+
+PSA (Prostate Specific Antigen):
+Normal range: below 4.0 ng/mL for men
+High PSA may indicate prostate enlargement or cancer
+Requires follow-up with urologist if elevated
+Only applicable for men
+
+eGFR (Estimated Glomerular Filtration Rate):
+Normal range: above 60 mL/min/1.73m²
+Below 60 indicates chronic kidney disease
+Below 15 indicates kidney failure
+Measures how well kidneys filter waste
