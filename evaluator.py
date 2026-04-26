@@ -70,11 +70,10 @@ Overall: X/10
 
 def run_evaluation(health_data, ai_output, language, api_key):
     safety_score, safety_feedback = evaluate_safety(health_data, ai_output)
-    llm_scores = evaluate_with_llm(health_data, ai_output, language, api_key)
 
     return {
         "safety_score": safety_score,
         "safety_feedback": safety_feedback,
-        "llm_scores": llm_scores,
+        "llm_scores": "Evaluation based on rule-based safety checking.",
         "language": language
     }
